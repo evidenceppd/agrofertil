@@ -1,0 +1,29 @@
+Como abrir o Sistema Administrativo 2.0 corretamente:
+
+1. Abrir o diretório com o VSCode;
+2. Executar os seguintes comandos no terminal:
+	2.1. composer install
+	2.2. npm install
+	2.3. npm run build
+	2.4. composer require illuminate/pagination
+	2.5. copy .env.example .env
+3. Assim estarão presentes no diretório raiz do projeto;
+	3.1. Pasta 'vendor';
+	3.2. Biblioteca do Paginator dentro da pasta 'vendor';
+	3.3. Pasta 'node_modules' do npm;
+	3.4. Arquivo '.env' configurado;
+
+4. Assim, basta executar os comandos abaixo para inicializar um servidor local com o Sistema Administrativo 2.0:
+	4.1. php artisan serv
+	4.2. npm run dev
+
+5. Por fim, acesse a url da sua máquina local: http://127.0.0.1:8000/
+
+6. Desfrute!
+
+
+
+Documentação Sistema Administrativo 2.0. Todos os direitos reservados à Agência Evidence - Publicidade e Propaganda Digital.
+
+Sistema e Documentação desenvolvidos por Erik Rossi da Silva - Departamento de Sites da Agência Evidence
+
